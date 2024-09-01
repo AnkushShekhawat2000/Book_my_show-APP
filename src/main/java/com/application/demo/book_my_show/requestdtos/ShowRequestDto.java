@@ -17,7 +17,7 @@ public class ShowRequestDto {
 
     private int theater_id;
 
-    private double classSeatPrice;
+    private double classicSeatPrice;
 
     private double premiumSeatPrice;
 
