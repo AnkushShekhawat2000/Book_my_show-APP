@@ -138,4 +138,9 @@ public class TicketService {
 
        return true;   // seats are available
     }
+
+    public List<TicketEntity> getTicketsByPriceLessThan500(){
+        List<TicketEntity> ticketEntityList = ticketRepository.getTicketsByPriceLessThan500();
+        return ticketEntityList;
+    }
 }
